@@ -91,6 +91,50 @@ body {
   text-decoration: none;
 }
 
+.benefit {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #e0e1dd;
+  padding: 40px 20px;
+}
+
+.benefitCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  gap: 12px;
+  border-right: 2px solid #ccc;
+  padding: 0 10px;
+}
+
+.benefitCardImage {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  background-color: #4db6ac;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.benefitCardImage img {
+  width: 70%;
+  height: 70%;
+}
+
+.benefitCardText h6 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.benefitCardText p {
+  margin: 10px 0;
+  font-size: 12px;
+  padding-right: 16px;
+}
+
 .footer {
   display: flex;
   flex-direction: row;
