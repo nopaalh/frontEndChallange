@@ -9,7 +9,7 @@
   </head>
   <body>
     <!-- Header -->
-    <div class="header">
+    <div class="header" id="home">
       <div class="headerLogo">
         <div class="logoImage">
           <img src="./images/companyLogo.png" alt="Travelly Logo" />
@@ -17,11 +17,11 @@
         <h5>Travelly</h5>
       </div>
       <ul class="headerList">
-        <li>Home</li>
-        <li>Destinations</li>
-        <li>About</li>
-        <li>Contact</li>
-        <li class="button">Book Now</li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a class="button" href="#book">Book Now</a></li>
       </ul>
     </div>
     <div class="hero">
@@ -33,7 +33,7 @@
       <a href="#">Explore Destinations</a>
     </div>
     <!-- Benefit Section -->
-    <div class="benefit">
+    <div class="benefit" id="about">
       <div class="benefitCard">
         <div class="benefitCardImage">
           <img src="./images/icons8-globe-50.png" alt="WorldWide" />
@@ -75,7 +75,7 @@
       </div>
     </div>
 
-    <div class="content">
+    <div class="content" id="destinations">
       <h2 class="title">
         Popular Destinations
         <div class="inner">&nbsp;</div>
@@ -136,12 +136,12 @@
       </div>
     </div>
 
-    <div class="cta">
+    <div class="cta" id="contact">
       <div class="ctaText">
         <h2>Ready to start your journey?</h2>
         <p>Book your trip now and get ready for the adventure of a lifetime!</p>
       </div>
-      <a class="ctaButton" href="#">Book Your Trip</a>
+      <a class="ctaButton" href="#book">Book Your Trip</a>
     </div>
 
     <!-- Footer -->
@@ -154,10 +154,10 @@
       </div>
       <div class="footerNavbar">
         <ul class="footerList">
-          <li>Home</li>
-          <li>Destinations</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
         <p>&copy 2024 Travelly. All rights reserved</p>
       </div>
