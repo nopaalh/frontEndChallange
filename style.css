@@ -96,7 +96,7 @@ body {
   justify-content: center;
   align-items: flex-start;
   background-color: #e0e1dd;
-  padding: 40px 20px;
+  padding: 40px;
 }
 
 .benefitCard {
@@ -135,6 +135,165 @@ body {
   padding-right: 16px;
 }
 
+/* Content */
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0 50px;
+}
+
+.content .tittle {
+  margin: 20px;
+  padding: 10px 10px 0 10px;
+}
+
+.content .inner {
+  width: 20%;
+  height: 1px;
+  margin: 5px auto;
+  margin-top: 20px;
+  border-bottom: 4px solid #4db6ac;
+  border-radius: 2px;
+}
+
+.contentDestinationContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contentDestinationCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+  border: 2px solid #e0e1dd;
+  padding: 0;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.cta {
+  width: calc(100% - 40px);
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 32px 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  background: linear-gradient(135deg, #081a2e 0%, #112f51 100%);
+  border-radius: 28px;
+  box-shadow: 0 18px 40px rgba(5, 24, 51, 0.15);
+  color: #ffffff;
+}
+
+.ctaText {
+  max-width: 70%;
+}
+
+.ctaText h2 {
+  margin: 0;
+  font-size: 32px;
+  line-height: 1.05;
+}
+
+.ctaText p {
+  margin: 12px 0 0;
+  color: #d4e3f6;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.ctaButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 28px;
+  background-color: #4db6ac;
+  color: #ffffff;
+  border-radius: 14px;
+  text-decoration: none;
+  font-weight: 700;
+  min-width: 170px;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.ctaButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 24px rgba(77, 182, 172, 0.28);
+}
+
+.contentDestinationImage {
+  max-width: 300px;
+  max-height: 160px;
+}
+
+.contentDestinationImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contentDestinationText {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-self: flex-start;
+  padding: 8px 12px;
+}
+
+.contentDestinationText h6 {
+  margin: 0;
+  margin-top: 8px;
+  font-size: 18px;
+}
+
+.contentDestinationText p {
+  margin: 10px 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  color: #4db6ac;
+}
+
+.destinationCardRating {
+  display: flex;
+  margin: 0 10px 10px;
+  align-self: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 6px;
+}
+
+.destinationCardRating .stars {
+  display: inline-flex;
+  align-items: center;
+  color: gold;
+  line-height: 1;
+  font-size: 16px;
+}
+
+.destinationCardRating .rating {
+  display: inline-flex;
+  align-items: center;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+/* Footer */
 .footer {
   display: flex;
   flex-direction: row;
